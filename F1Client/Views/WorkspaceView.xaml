@@ -1,0 +1,40 @@
+﻿<controls:MetroWindow
+    x:Class="F1Client.Views.WorkspaceView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:controls="http://metro.mahapps.com/winfx/xaml/controls"
+    mc:Ignorable="d"
+    GlowBrush="{DynamicResource AccentColorBrush}"
+    WindowStartupLocation="CenterScreen"
+    Title="F1 - WPF" Height="450" Width="800">
+    <Grid>
+        <DockPanel>
+            <Menu DockPanel.Dock="Top">
+                <MenuItem Header="_Gerais">
+                    <MenuItem x:Name="Pais" Header="_País" />
+                    <MenuItem x:Name="Motor" Header="_Motor" />
+                    <MenuItem x:Name="Pneu" Header="_Pneu" />
+                    <MenuItem x:Name="Equipe" Header="_Equipe"/>
+                    <MenuItem x:Name="Piloto" Header="_Piloto"/>
+                    <MenuItem x:Name="TipoPneu" Header="_Tipo de Pneu" />
+                </MenuItem>
+                <MenuItem Header="_Campeonato">
+                <MenuItem x:Name="Temporada" Header="_Temporada" />
+                <MenuItem x:Name="Grid" Header="_Grid"/>
+                <MenuItem x:Name="Evento" Header="_Evento"/>
+                <MenuItem x:Name="GP" Header="_GP"/>
+                <MenuItem x:Name="Circuito" Header="_Circuito"/>
+                <MenuItem x:Name="Pontuacao" Header="_Pontuacao" />
+                <MenuItem x:Name="TipoCircuito" Header="_Tipo de Circuito" />
+                </MenuItem>
+                <MenuItem Header="Relatórios">
+                <MenuItem x:Name="RelatorioPilotos" Header="_Pilotos"/>
+                </MenuItem>
+                <MenuItem x:Name="Sair" Header="_Sair" Background="Azure" />
+            </Menu>
+        </DockPanel>
+        <ContentControl x:Name="ActiveItem" Margin="15,40,15,15" />
+    </Grid>
+</controls:MetroWindow>

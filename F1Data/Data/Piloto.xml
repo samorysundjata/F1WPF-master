@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pilotos>
+  <piloto>
+    <Nome>Lewis Hamilton</Nome>
+    <DataNascimento>07/01/1985</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>GBR</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Michael Schumacher</Nome>
+    <DataNascimento>03/01/1969</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>DEU</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Fernando Alonso</Nome>
+    <DataNascimento>29/07/1981</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>ESP</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Denny Hulme</Nome>
+    <DataNascimento>18/06/1936</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>NZL</Pais>
+  </piloto>
+  <piloto>
+    <Nome>James Hunt</Nome>
+    <DataNascimento>29/08/1947</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>GBR</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Alan Jones</Nome>
+    <DataNascimento>02/11/1946</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>AUS</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Niki Lauda</Nome>
+    <DataNascimento>22/02/1949</DataNascimento>
+    <DataFalecimento>20/05/2019</DataFalecimento>
+    <Pais>AUT</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Nigel Mansell</Nome>
+    <DataNascimento>08/08/1953</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>GBR</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Nelson Piquet</Nome>
+    <DataNascimento>17/08/1952</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>BRA</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Giuseppe Farina</Nome>
+    <DataNascimento>30/10/1906</DataNascimento>
+    <DataFalecimento>30/06/1966</DataFalecimento>
+    <Pais>ITA</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Juan Manuel Fangio</Nome>
+    <DataNascimento>24/06/1911</DataNascimento>
+    <DataFalecimento>17/07/1995</DataFalecimento>
+    <Pais>ARG</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Johnnie Parsons</Nome>
+    <DataNascimento>04/07/1918</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>USA</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Luigi Fagioli</Nome>
+    <DataNascimento>09/06/1898</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>ITA</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Reg Parnell</Nome>
+    <DataNascimento>02/07/1911</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>GBR</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Wolfgang von Trips</Nome>
+    <DataNascimento>04/05/1928</DataNascimento>
+    <DataFalecimento>10/09/1961</DataFalecimento>
+    <Pais>DEU</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Ricardo Rodríguez</Nome>
+    <DataNascimento>14/02/1942</DataNascimento>
+    <DataFalecimento>01/11/1962</DataFalecimento>
+    <Pais>MEX</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Pedro Rodríguez</Nome>
+    <DataNascimento>18/01/1940</DataNascimento>
+    <DataFalecimento>11/07/1971</DataFalecimento>
+    <Pais>MEX</Pais>
+  </piloto>
+  <piloto>
+    <Nome>John Watson</Nome>
+    <DataNascimento>04/05/1946</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>GBR</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Martin Brundle</Nome>
+    <DataNascimento>01/06/1959</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>GBR</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Stefan Johansson</Nome>
+    <DataNascimento>08/09/1956</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>SWE</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Alain Prost</Nome>
+    <DataNascimento>24/02/1955</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>FRA</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Elio de Angelis</Nome>
+    <DataNascimento>26/03/1958</DataNascimento>
+    <DataFalecimento>15/05/1986</DataFalecimento>
+    <Pais>ITA</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Michele Alboreto</Nome>
+    <DataNascimento>23/12/1956</DataNascimento>
+    <DataFalecimento>25/04/2001</DataFalecimento>
+    <Pais>ITA</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Keke Rosberg</Nome>
+    <DataNascimento>06/12/1948</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>FIN</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Jody Scheckter</Nome>
+    <DataNascimento>29/01/1890</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>ZAF</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Patrick Depailler</Nome>
+    <DataNascimento>09/08/1944</DataNascimento>
+    <DataFalecimento>01/08/1980</DataFalecimento>
+    <Pais>FRA</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Jacky Ickx</Nome>
+    <DataNascimento>01/01/1945</DataNascimento>
+    <DataFalecimento>01/01/0001</DataFalecimento>
+    <Pais>BEL</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Ronnie Peterson</Nome>
+    <DataNascimento>14/02/1944</DataNascimento>
+    <DataFalecimento>11/09/1978</DataFalecimento>
+    <Pais>SWE</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Alberto Ascari</Nome>
+    <DataNascimento>13/07/1918</DataNascimento>
+    <DataFalecimento>26/05/1955</DataFalecimento>
+    <Pais>ITA</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Lella Lombardi</Nome>
+    <DataNascimento>26/03/1941</DataNascimento>
+    <DataFalecimento>03/03/1992</DataFalecimento>
+    <Pais>ITA</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Consalvo Sanesi</Nome>
+    <DataNascimento>28/03/1911</DataNascimento>
+    <DataFalecimento>28/07/1998</DataFalecimento>
+    <Pais>ITA</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Toulo de Graffenried</Nome>
+    <DataNascimento>18/05/1914</DataNascimento>
+    <DataFalecimento>22/01/2007</DataFalecimento>
+    <Pais>CHE</Pais>
+  </piloto>
+  <piloto>
+    <Nome>José Froilán González</Nome>
+    <DataNascimento>05/10/1922</DataNascimento>
+    <DataFalecimento>15/06/2013</DataFalecimento>
+    <Pais>ARG</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Felice Bonetto</Nome>
+    <DataNascimento>09/06/1903</DataNascimento>
+    <DataFalecimento>21/11/1953</DataFalecimento>
+    <Pais>ITA</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Luigi Villoresi</Nome>
+    <DataNascimento>16/05/1909</DataNascimento>
+    <DataFalecimento>24/08/1997</DataFalecimento>
+    <Pais>ITA</Pais>
+  </piloto>
+  <piloto>
+    <Nome>Piero Taruffi</Nome>
+    <DataNascimento>12/10/1906</DataNascimento>
+    <DataFalecimento>12/01/1988</DataFalecimento>
+    <Pais>ITA</Pais>
+  </piloto>
+</pilotos>

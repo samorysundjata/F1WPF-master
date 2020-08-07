@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<gps>
+  <gp>
+    <DataCorrida>13/05/1950</DataCorrida>
+    <Temporada>1</Temporada>
+    <Circuito>Silverstone</Circuito>
+    <Pais>GBR</Pais>
+  </gp>
+  <gp>
+    <DataCorrida>21/05/1950</DataCorrida>
+    <Temporada>1</Temporada>
+    <Circuito>Mônaco</Circuito>
+    <Pais>MCO</Pais>
+  </gp>
+  <gp>
+    <DataCorrida>30/05/1950</DataCorrida>
+    <Temporada>1</Temporada>
+    <Circuito>Indianapolis </Circuito>
+    <Pais>USA</Pais>
+  </gp>
+  <gp>
+    <DataCorrida>04/06/1950</DataCorrida>
+    <Temporada>1</Temporada>
+    <Circuito>Bremgarten</Circuito>
+    <Pais>CHE</Pais>
+  </gp>
+  <gp>
+    <DataCorrida>18/06/1950</DataCorrida>
+    <Temporada>1</Temporada>
+    <Circuito>Spa-Francorchamps</Circuito>
+    <Pais>BEL</Pais>
+  </gp>
+  <gp>
+    <DataCorrida>02/07/1950</DataCorrida>
+    <Temporada>1</Temporada>
+    <Circuito>Reims-Gueux</Circuito>
+    <Pais>FRA</Pais>
+  </gp>
+  <gp>
+    <DataCorrida>03/09/1950</DataCorrida>
+    <Temporada>1</Temporada>
+    <Circuito>Monza</Circuito>
+    <Pais>ITA</Pais>
+  </gp>
+</gps>

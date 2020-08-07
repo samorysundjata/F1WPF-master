@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tipocircuitos>
+  <tipocircuito>
+    <Nome>Pista</Nome>
+  </tipocircuito>
+  <tipocircuito>
+    <Nome>Estrada</Nome>
+  </tipocircuito>
+  <tipocircuito>
+    <Nome>Rua</Nome>
+  </tipocircuito>
+  <tipocircuito>
+    <Nome>Híbrido</Nome>
+  </tipocircuito>
+</tipocircuitos>

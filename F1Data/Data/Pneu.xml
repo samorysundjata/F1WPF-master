@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<pneus>
+  <pneu>
+    <Nome>Pirelli</Nome>
+    <Pais>ITA</Pais>
+  </pneu>
+  <pneu>
+    <Nome>Continental AG</Nome>
+    <Pais>DEU</Pais>
+  </pneu>
+  <pneu>
+    <Nome>Englebert</Nome>
+    <Pais>BEL</Pais>
+  </pneu>
+  <pneu>
+    <Nome>Goodyear</Nome>
+    <Pais>USA</Pais>
+  </pneu>
+  <pneu>
+    <Nome>Firestone</Nome>
+    <Pais>USA</Pais>
+  </pneu>
+  <pneu>
+    <Nome>Michelin</Nome>
+    <Pais>FRA</Pais>
+  </pneu>
+  <pneu>
+    <Nome>Bridgestone</Nome>
+    <Pais>JPN</Pais>
+  </pneu>
+  <pneu>
+    <Nome>Dunlop</Nome>
+    <Pais>GBR</Pais>
+  </pneu>
+</pneus>

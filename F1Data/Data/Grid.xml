@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<grids>
+  <grid>
+    <Numero>1</Numero>
+    <Temporada>36</Temporada>
+    <Piloto>Alain Prost</Piloto>
+    <NumeroPiloto>2</NumeroPiloto>
+    <Equipe>McLaren</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>2</Numero>
+    <Temporada>36</Temporada>
+    <Piloto>Niki Lauda</Piloto>
+    <NumeroPiloto>1</NumeroPiloto>
+    <Equipe>McLaren</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>3</Numero>
+    <Temporada>36</Temporada>
+    <Piloto>Martin Brundle</Piloto>
+    <NumeroPiloto>3</NumeroPiloto>
+    <Equipe>Tyrrell</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>4</Numero>
+    <Temporada>36</Temporada>
+    <Piloto>Stefan Johansson</Piloto>
+    <NumeroPiloto>4</NumeroPiloto>
+    <Equipe>Tyrrell</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>33</Numero>
+    <Temporada>36</Temporada>
+    <Piloto>Nelson Piquet</Piloto>
+    <NumeroPiloto>7</NumeroPiloto>
+    <Equipe>Brabham</Equipe>
+    <Motor>BMW</Motor>
+  </grid>
+  <grid>
+    <Numero>6</Numero>
+    <Temporada>36</Temporada>
+    <Piloto>Elio de Angelis</Piloto>
+    <NumeroPiloto>11</NumeroPiloto>
+    <Equipe>Lotus</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>7</Numero>
+    <Temporada>34</Temporada>
+    <Piloto>Keke Rosberg</Piloto>
+    <NumeroPiloto>1</NumeroPiloto>
+    <Equipe>Williams </Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>8</Numero>
+    <Temporada>34</Temporada>
+    <Piloto>Michele Alboreto</Piloto>
+    <NumeroPiloto>3</NumeroPiloto>
+    <Equipe>Tyrrell</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>9</Numero>
+    <Temporada>34</Temporada>
+    <Piloto>Alain Prost</Piloto>
+    <NumeroPiloto>15</NumeroPiloto>
+    <Equipe>Renault</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>10</Numero>
+    <Temporada>34</Temporada>
+    <Piloto>John Watson</Piloto>
+    <NumeroPiloto>7</NumeroPiloto>
+    <Equipe>McLaren</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>11</Numero>
+    <Temporada>34</Temporada>
+    <Piloto>Niki Lauda</Piloto>
+    <NumeroPiloto>8</NumeroPiloto>
+    <Equipe>McLaren</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>12</Numero>
+    <Temporada>25</Temporada>
+    <Piloto>Ronnie Peterson</Piloto>
+    <NumeroPiloto>1</NumeroPiloto>
+    <Equipe>Lotus</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>13</Numero>
+    <Temporada>25</Temporada>
+    <Piloto>Jacky Ickx</Piloto>
+    <NumeroPiloto>2</NumeroPiloto>
+    <Equipe>Lotus</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>14</Numero>
+    <Temporada>25</Temporada>
+    <Piloto>Patrick Depailler</Piloto>
+    <NumeroPiloto>4</NumeroPiloto>
+    <Equipe>Tyrrell</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>15</Numero>
+    <Temporada>25</Temporada>
+    <Piloto>Jody Scheckter</Piloto>
+    <NumeroPiloto>3</NumeroPiloto>
+    <Equipe>Tyrrell</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>26</Numero>
+    <Temporada>25</Temporada>
+    <Piloto>Niki Lauda</Piloto>
+    <NumeroPiloto>12</NumeroPiloto>
+    <Equipe>Ferrari</Equipe>
+    <Motor>Maserati</Motor>
+  </grid>
+  <grid>
+    <Numero>29</Numero>
+    <Temporada>1</Temporada>
+    <Piloto>Giuseppe Farina</Piloto>
+    <NumeroPiloto>2</NumeroPiloto>
+    <Equipe>Alfa Romeo</Equipe>
+    <Motor>Alfa Romeo</Motor>
+  </grid>
+  <grid>
+    <Numero>31</Numero>
+    <Temporada>2</Temporada>
+    <Piloto>Giuseppe Farina</Piloto>
+    <NumeroPiloto>1</NumeroPiloto>
+    <Equipe>Alfa Romeo</Equipe>
+    <Motor>Alfa Romeo</Motor>
+  </grid>
+  <grid>
+    <Numero>32</Numero>
+    <Temporada>3</Temporada>
+    <Piloto>Giuseppe Farina</Piloto>
+    <NumeroPiloto>10</NumeroPiloto>
+    <Equipe>Ferrari</Equipe>
+    <Motor>Ferrari</Motor>
+  </grid>
+  <grid>
+    <Numero>28</Numero>
+    <Temporada>1</Temporada>
+    <Piloto>Juan Manuel Fangio</Piloto>
+    <NumeroPiloto>1</NumeroPiloto>
+    <Equipe>Alfa Romeo</Equipe>
+    <Motor>Alfa Romeo</Motor>
+  </grid>
+  <grid>
+    <Numero>30</Numero>
+    <Temporada>1</Temporada>
+    <Piloto>Alberto Ascari</Piloto>
+    <NumeroPiloto>40</NumeroPiloto>
+    <Equipe>Ferrari</Equipe>
+    <Motor>Ferrari</Motor>
+  </grid>
+  <grid>
+    <Numero>34</Numero>
+    <Temporada>4</Temporada>
+    <Piloto>Giuseppe Farina</Piloto>
+    <NumeroPiloto>10</NumeroPiloto>
+    <Equipe>Ferrari</Equipe>
+    <Motor>Ferrari</Motor>
+  </grid>
+  <grid>
+    <Numero>35</Numero>
+    <Temporada>5</Temporada>
+    <Piloto>Giuseppe Farina</Piloto>
+    <NumeroPiloto>10</NumeroPiloto>
+    <Equipe>Ferrari</Equipe>
+    <Motor>Ferrari</Motor>
+  </grid>
+  <grid>
+    <Numero>36</Numero>
+    <Temporada>6</Temporada>
+    <Piloto>Giuseppe Farina</Piloto>
+    <NumeroPiloto>0</NumeroPiloto>
+    <Equipe>Ferrari</Equipe>
+    <Motor>Ferrari</Motor>
+  </grid>
+  <grid>
+    <Numero>37</Numero>
+    <Temporada>1</Temporada>
+    <Piloto>Luigi Fagioli</Piloto>
+    <NumeroPiloto>3</NumeroPiloto>
+    <Equipe>Alfa Romeo</Equipe>
+    <Motor>Alfa Romeo</Motor>
+  </grid>
+  <grid>
+    <Numero>38</Numero>
+    <Temporada>1</Temporada>
+    <Piloto>Reg Parnell</Piloto>
+    <NumeroPiloto>4</NumeroPiloto>
+    <Equipe>Alfa Romeo</Equipe>
+    <Motor>Alfa Romeo</Motor>
+  </grid>
+</grids>

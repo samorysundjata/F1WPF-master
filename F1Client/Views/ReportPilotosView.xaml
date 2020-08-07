@@ -1,0 +1,13 @@
+﻿<UserControl
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:F1Client.Views"
+             xmlns:Viewer="clr-namespace:SAPBusinessObjects.WPF.Viewer;assembly=SAPBusinessObjects.WPF.Viewer" x:Class="F1Client.Views.ReportPilotosView"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Viewer:CrystalReportsViewer x:Name="RpViewer" HorizontalAlignment="Left" Height="340" Margin="0,5,0,0" VerticalAlignment="Top" Width="740" ShowLogo="False" ShowCopyButton="False" ShowGoToPageButton="False" ShowStatusbar="False" ShowToggleSidePanelButton="False" ShowToolbar="True" ToggleSidePanel="None"/>
+    </Grid>
+</UserControl>

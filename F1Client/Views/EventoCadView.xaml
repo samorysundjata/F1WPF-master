@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="F1Client.Views.EventoCadView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:local="clr-namespace:F1Client.Views"
+             mc:Ignorable="d"
+             d:DesignHeight="450" d:DesignWidth="400" Background="WhiteSmoke">
+    <Grid Margin="10">
+        <StackPanel Orientation="Vertical">
+            <TextBlock>GP do Evento</TextBlock>
+            <ComboBox x:Name="GP" ItemsSource="{Binding Gps, Mode=TwoWay}"
+                      SelectedValue="{Binding GP.DataCorrida, Mode=TwoWay}" SelectedItem="{Binding GP, Mode=TwoWay}"
+                      DisplayMemberPath="GP.DataCorrida" SelectedValuePath="GP" Width="200"
+                      HorizontalAlignment="Left" IsEnabled="True" />
+            <TextBlock>Piloto</TextBlock>
+            <ComboBox x:Name="NumeroPiloto" ItemsSource="{Binding NumerosPiloto, Mode=TwoWay}"
+                      SelectedValue="{Binding NumeroPiloto, Mode=TwoWay}"
+                      SelectedItem="{Binding NumeroPioloto, Mode=TwoWay}" DisplayMemberPath="Piloto.Nome"
+                      SelectedValuePath="NumeroPiloto" Width="200" HorizontalAlignment="Left" IsEnabled="True" />
+            <TextBlock>Posição Final</TextBlock>
+            <ComboBox x:Name="Posicao" ItemsSource="{Binding Posicoes, Mode=TwoWay}"
+                      SelectedValue="{Binding Posicao, Mode=TwoWay}" SelectedItem="{Binding Posicao, Mode=TwoWay}"
+                      DisplayMemberPath="Posicao" SelectedValuePath="Posicao" Width="200" HorizontalAlignment="Left"
+                      IsEnabled="True" />
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*" />
+                    <ColumnDefinition Width="5*" />
+                </Grid.ColumnDefinitions>
+                <Button x:Name="Salvar" Grid.Column="0" Content="Salvar"
+                        Style="{StaticResource AccentedDialogHighlightedSquareButton}" Margin="5" />
+                <Button x:Name="Cancelar" Grid.Column="1" Content="Cancelar"
+                        Style="{StaticResource AccentedDialogHighlightedSquareButton}" Margin="5" IsCancel="True" />
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

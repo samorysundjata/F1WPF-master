@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F3BF79F2-9BEC-4A7C-BDCC-A8C4418DC14F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>F1Client</RootNamespace>
+    <AssemblyName>F1Client</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <WarningLevel>4</WarningLevel>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Caliburn.Micro, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.Core.3.2.0\lib\net45\Caliburn.Micro.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro.Platform, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Caliburn.Micro.Platform.Core, Version=3.2.0.0, Culture=neutral, PublicKeyToken=8e5891231f2ed21f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Caliburn.Micro.3.2.0\lib\net45\Caliburn.Micro.Platform.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ControlzEx, Version=3.0.2.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ControlzEx.3.0.2.4\lib\net45\ControlzEx.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="MahApps.Metro, Version=1.6.5.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MahApps.Metro.1.6.5\lib\net46\MahApps.Metro.dll</HintPath>
+    </Reference>
+    <Reference Include="ReachFramework" />
+    <Reference Include="sapbusinessobjects.wpf.viewer, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="SAPBusinessObjects.WPF.ViewerShared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Interactivity, Version=4.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\ControlzEx.3.0.2.4\lib\net45\System.Windows.Interactivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="Models\Circuito.cs" />
+    <Compile Include="Models\Equipe.cs" />
+    <Compile Include="Models\Evento.cs" />
+    <Compile Include="Models\GP.cs" />
+    <Compile Include="Models\Grid.cs" />
+    <Compile Include="Models\Motor.cs" />
+    <Compile Include="Models\Pais.cs" />
+    <Compile Include="Models\Piloto.cs" />
+    <Compile Include="Models\Pneu.cs" />
+    <Compile Include="Models\Pontuacao.cs" />
+    <Compile Include="Models\Temporada.cs" />
+    <Compile Include="Models\TipoCircuito.cs" />
+    <Compile Include="Models\TipoPneu.cs" />
+    <Compile Include="Reports\DsPilotos.cs">
+      <DependentUpon>DsPilotos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\DsPilotos.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DsPilotos.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\rptPilotos.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>rptPilotos.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ViewModels\CircuitoCadViewModel.cs" />
+    <Compile Include="ViewModels\CircuitoViewModel.cs" />
+    <Compile Include="ViewModels\EquipeCadViewModel.cs" />
+    <Compile Include="ViewModels\EquipeViewModel.cs" />
+    <Compile Include="ViewModels\EventoCadViewModel.cs" />
+    <Compile Include="ViewModels\EventoViewModel.cs" />
+    <Compile Include="ViewModels\GPCadViewModel.cs" />
+    <Compile Include="ViewModels\GPViewModel.cs" />
+    <Compile Include="ViewModels\GridCadViewModel.cs" />
+    <Compile Include="ViewModels\GridViewModel.cs" />
+    <Compile Include="ViewModels\MotorCadViewModel.cs" />
+    <Compile Include="ViewModels\MotorViewModel.cs" />
+    <Compile Include="ViewModels\PaisCadViewModel.cs" />
+    <Compile Include="ViewModels\PaisViewModel.cs" />
+    <Compile Include="ViewModels\PilotoCadViewModel.cs" />
+    <Compile Include="ViewModels\PilotoViewModel.cs" />
+    <Compile Include="ViewModels\PneuCadViewModel.cs" />
+    <Compile Include="ViewModels\PneuViewModel.cs" />
+    <Compile Include="ViewModels\PontuacaoCadViewModel.cs" />
+    <Compile Include="ViewModels\PontuacaoViewModel.cs" />
+    <Compile Include="ViewModels\ReportPilotosViewModel.cs" />
+    <Compile Include="ViewModels\TemporadaCadViewModel.cs" />
+    <Compile Include="ViewModels\TemporadaViewModel.cs" />
+    <Compile Include="ViewModels\TipoCircuitoCadViewModel.cs" />
+    <Compile Include="ViewModels\TipoCircuitoViewModel.cs" />
+    <Compile Include="ViewModels\TipoPneuCadViewModel.cs" />
+    <Compile Include="ViewModels\TipoPneuViewModel.cs" />
+    <Compile Include="ViewModels\ViewModelBase.cs" />
+    <Compile Include="ViewModels\WorkspaceViewModel.cs" />
+    <Compile Include="Views\CircuitoCadView.xaml.cs">
+      <DependentUpon>CircuitoCadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\CircuitoView.xaml.cs">
+      <DependentUpon>CircuitoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EquipeCadView.xaml.cs">
+      <DependentUpon>EquipeCadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EquipeView.xaml.cs">
+      <DependentUpon>EquipeView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EventoCadView.xaml.cs">
+      <DependentUpon>EventoCadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EventoView.xaml.cs">
+      <DependentUpon>EventoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GPCadView.xaml.cs">
+      <DependentUpon>GPCadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GPView.xaml.cs">
+      <DependentUpon>GPView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GridCadView.xaml.cs">
+      <DependentUpon>GridCadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GridView.xaml.cs">
+      <DependentUpon>GridView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MotorCadView.xaml.cs">
+      <DependentUpon>MotorCadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\MotorView.xaml.cs">
+      <DependentUpon>MotorView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PaisCadView.xaml.cs">
+      <DependentUpon>PaisCadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PaisView.xaml.cs">
+      <DependentUpon>PaisView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PilotoCadView.xaml.cs">
+      <DependentUpon>PilotoCadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PilotoView.xaml.cs">
+      <DependentUpon>PilotoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PneuCadView.xaml.cs">
+      <DependentUpon>PneuCadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PneuView.xaml.cs">
+      <DependentUpon>PneuView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PontuacaoCadView.xaml.cs">
+      <DependentUpon>PontuacaoCadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\PontuacaoView.xaml.cs">
+      <DependentUpon>PontuacaoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ReportPilotosView.xaml.cs">
+      <DependentUpon>ReportPilotosView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TemporadaCadView.xaml.cs">
+      <DependentUpon>TemporadaCadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TemporadaView.xaml.cs">
+      <DependentUpon>TemporadaView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TipoCircuitoCadView.xaml.cs">
+      <DependentUpon>TipoCircuitoCadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TipoCircuitoView.xaml.cs">
+      <DependentUpon>TipoCircuitoView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TipoPneuCadView.xaml.cs">
+      <DependentUpon>TipoPneuCadView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\TipoPneuView.xaml.cs">
+      <DependentUpon>TipoPneuView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\WorkspaceView.xaml.cs">
+      <DependentUpon>WorkspaceView.xaml</DependentUpon>
+    </Compile>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="HelloBootstrapper.cs" />
+    <Compile Include="MainWindow.xaml.cs">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="Views\CircuitoCadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CircuitoView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EquipeCadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EquipeView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EventoCadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EventoView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GPCadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GPView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GridCadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GridView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MotorCadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\MotorView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PaisCadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PaisView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PilotoCadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PilotoView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PneuCadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PneuView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PontuacaoCadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\PontuacaoView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ReportPilotosView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TemporadaCadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TemporadaView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TipoCircuitoCadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TipoCircuitoView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TipoPneuCadView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\TipoPneuView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\WorkspaceView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\rptPilotos.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>rptPilotos.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reports\DsPilotos.xsc">
+      <DependentUpon>DsPilotos.xsd</DependentUpon>
+    </None>
+    <None Include="Reports\DsPilotos.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DsPilotos.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Reports\DsPilotos.xss">
+      <DependentUpon>DsPilotos.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\F1Data\F1Data.csproj">
+      <Project>{677796DE-CF3F-4EC8-8192-750331FDF5D0}</Project>
+      <Name>F1Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

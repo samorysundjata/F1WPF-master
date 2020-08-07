@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="F1Client.Views.EquipeCadView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:F1Client.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="210" d:DesignWidth="300" Background="WhiteSmoke">
+    <Grid Margin="10">
+        <StackPanel Orientation="Vertical">
+            <TextBlock>Nome da Equipe</TextBlock>
+            <TextBox Text="{Binding Nome}" Style="{StaticResource TxtCad}" />
+            <TextBlock>País</TextBlock>
+            <ComboBox x:Name="Pais" ItemsSource="{Binding Paises, Mode=TwoWay}" Width="200" HorizontalAlignment="Left"
+                      SelectedValue="{Binding Pais.Sigla, Mode=TwoWay}" SelectedItem="{Binding Pais, Mode=TwoWay}"
+                      DisplayMemberPath="Nome" SelectedValuePath="Sigla" IsEnabled="True"/>
+            <TextBlock>Data de Estréia</TextBlock>
+            <DatePicker x:Name="Estreia" Text="{Binding Estreia, StringFormat='dd/MM/yyyy', Mode=TwoWay}" 
+                        SelectedDate="{Binding Estreia, StringFormat='dd/MM/yyyy', Mode=TwoWay}" 
+                        Language="PT-BR" FirstDayOfWeek="Sunday"/>
+            <TextBlock>Atual</TextBlock><CheckBox x:Name="Atual"></CheckBox>
+            <TextBlock>Data de Despedida</TextBlock>
+            <DatePicker x:Name="Despedida" Text="{Binding Despedida, StringFormat='dd/MM/yyyy', Mode=TwoWay}" 
+                        SelectedDate="{Binding Despedida, StringFormat='dd/MM/yyyy', Mode=TwoWay}" 
+                        Language="PT-BR" FirstDayOfWeek="Sunday"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*" />
+                    <ColumnDefinition Width="5*" />
+                </Grid.ColumnDefinitions>
+                <Button x:Name="Salvar" Grid.Column="0" Content="Salvar" Style="{StaticResource AccentedDialogHighlightedSquareButton}" Margin="5" />
+                <Button x:Name="Cancelar" Grid.Column="1" Content="Cancelar" Style="{StaticResource AccentedDialogHighlightedSquareButton}" Margin="5"
+                        IsCancel="True" />
+            </Grid>
+        </StackPanel>
+    </Grid>
+</UserControl>

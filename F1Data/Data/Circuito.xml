@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<circuitos>
+  <circuito>
+    <Nome>Silverstone</Nome>
+    <Cidade>Silverstone</Cidade>
+    <Pais>GBR</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Mônaco</Nome>
+    <Cidade>Montecarlo</Cidade>
+    <Pais>MCO</Pais>
+    <TipoCircuito>Rua</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Bremgarten</Nome>
+    <Cidade>Bremgarten bei Bern</Cidade>
+    <Pais>CHE</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Indianapolis </Nome>
+    <Cidade>Indianapolis </Cidade>
+    <Pais>USA</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Spa-Francorchamps</Nome>
+    <Cidade>Spa</Cidade>
+    <Pais>BEL</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Reims-Gueux</Nome>
+    <Cidade>Reims</Cidade>
+    <Pais>FRA</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Monza</Nome>
+    <Cidade>Monza</Cidade>
+    <Pais>ITA</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Aintree</Nome>
+    <Cidade>Aintree</Cidade>
+    <Pais>GBR</Pais>
+    <TipoCircuito>Estrada</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Brands Hatch</Nome>
+    <Cidade>Kent</Cidade>
+    <Pais>GBR</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Circuit de Catalunya</Nome>
+    <Cidade>Barcelona</Cidade>
+    <Pais>ESP</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Dijon-Prenois</Nome>
+    <Cidade>Dijon</Cidade>
+    <Pais>FRA</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Gilles Villeneuve</Nome>
+    <Cidade>Montreal</Cidade>
+    <Pais>CAN</Pais>
+    <TipoCircuito>Híbrido</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Hermanos Rodríguez</Nome>
+    <Cidade>Ciudad de México</Cidade>
+    <Pais>MEX</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Hockenheimring</Nome>
+    <Cidade>Hockenheim</Cidade>
+    <Pais>DEU</Pais>
+    <TipoCircuito>Híbrido</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Marina Bay</Nome>
+    <Cidade>Marina Bay</Cidade>
+    <Pais>SGP</Pais>
+    <TipoCircuito>Rua</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Yas Marina</Nome>
+    <Cidade>Abu Dhabi</Cidade>
+    <Pais>ARE</Pais>
+    <TipoCircuito>Híbrido</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Red Bull Ring</Nome>
+    <Cidade>Spielberg</Cidade>
+    <Pais>AUT</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Adelaide Street Circuit</Nome>
+    <Cidade>Adelaide</Cidade>
+    <Pais>AUS</Pais>
+    <TipoCircuito>Rua</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Albert Park</Nome>
+    <Cidade>Melbourne</Cidade>
+    <Pais>AUS</Pais>
+    <TipoCircuito>Rua</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Circuito das Américas</Nome>
+    <Cidade>Austin</Cidade>
+    <Pais>USA</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Bahrain</Nome>
+    <Cidade>Sakhir</Cidade>
+    <Pais>BHR</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Buddh</Nome>
+    <Cidade>Greater Noida</Cidade>
+    <Pais>IND</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Detroit</Nome>
+    <Cidade>Detroit</Cidade>
+    <Pais>USA</Pais>
+    <TipoCircuito>Rua</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Donington Park</Nome>
+    <Cidade>Leicestershire</Cidade>
+    <Pais>GBR</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Jacarepaguá</Nome>
+    <Cidade>Rio de Janeiro</Cidade>
+    <Pais>BRA</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Suzuka</Nome>
+    <Cidade>Suzuka</Cidade>
+    <Pais>JPN</Pais>
+    <TipoCircuito>Pista</TipoCircuito>
+  </circuito>
+  <circuito>
+    <Nome>Valência</Nome>
+    <Cidade>Valência</Cidade>
+    <Pais>ESP</Pais>
+    <TipoCircuito>Rua</TipoCircuito>
+  </circuito>
+</circuitos>

@@ -1,0 +1,39 @@
+﻿<UserControl x:Class="F1Client.Views.GridCadView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:F1Client.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="480" d:DesignWidth="300" Background="WhiteSmoke">
+    <Grid Margin="10">
+        <StackPanel Orientation="Vertical">
+            <TextBlock>Temporada do Grid</TextBlock>
+            <ComboBox x:Name="Temporada" ItemsSource="{Binding Temporadas, Mode=TwoWay}" Width="70" HorizontalAlignment="Left" 
+                      SelectedValue="{Binding Temporada.Numero, Mode=TwoWay}" SelectedItem="{Binding Temporada, Mode=TwoWay}" 
+                      DisplayMemberPath="Ano.Year" SelectedValuePath="Numero" IsEnabled="True"/>
+            <TextBlock>Piloto</TextBlock>
+            <ComboBox x:Name="Piloto" ItemsSource="{Binding Pilotos, Mode=TwoWay}" Width="200" HorizontalAlignment="Left" 
+                      SelectedValue="{Binding Piloto.Nome, Mode=TwoWay}" SelectedItem="{Binding Piloto, Mode=TwoWay}" 
+                      DisplayMemberPath="Nome" SelectedValuePath="Nome" IsEnabled="True"/>
+            <TextBlock>Número do Piloto</TextBlock>
+            <TextBox Text="{Binding NumeroPiloto}" Style="{StaticResource TxtCad}" MaxLength="2" Width="30" />
+            <TextBlock>Equipe</TextBlock>
+            <ComboBox x:Name="Equipe" ItemsSource="{Binding Equipes, Mode=TwoWay}" Width="200" HorizontalAlignment="Left" 
+                      SelectedValue="{Binding Equipe.Nome, Mode=TwoWay}" SelectedItem="{Binding Equipe, Mode=TwoWay}" 
+                      DisplayMemberPath="Nome" SelectedValuePath="Nome" IsEnabled="True"/>
+            <TextBlock>Motor</TextBlock>
+            <ComboBox x:Name="Motor" ItemsSource="{Binding Motores, Mode=TwoWay}" Width="200" HorizontalAlignment="Left" 
+                      SelectedValue="{Binding Motor.Nome, Mode=TwoWay}" SelectedItem="{Binding Motor, Mode=TwoWay}" 
+                      DisplayMemberPath="Nome" SelectedValuePath="Nome" IsEnabled="True"/>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="5*"/>
+                    <ColumnDefinition Width="5*"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="Salvar" Grid.Column="0" Content="Salvar" Style="{StaticResource AccentedDialogHighlightedSquareButton}" Margin="5" />
+                <Button x:Name="Cancelar" Grid.Column="1" Content="Cancelar" Style="{StaticResource AccentedDialogHighlightedSquareButton}" Margin="5" IsCancel="True" />
+            </Grid>
+        </StackPanel>            
+    </Grid>
+</UserControl>

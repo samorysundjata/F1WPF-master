@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<tipopneus>
+  <tipopneu>
+    <Nome>Intermediário</Nome>
+  </tipopneu>
+  <tipopneu>
+    <Nome>Macio</Nome>
+  </tipopneu>
+  <tipopneu>
+    <Nome>Duro</Nome>
+  </tipopneu>
+  <tipopneu>
+    <Nome>Chuva</Nome>
+  </tipopneu>
+  <tipopneu>
+    <Nome>Médio</Nome>
+  </tipopneu>
+</tipopneus>
