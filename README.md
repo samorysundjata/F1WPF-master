@@ -10,4 +10,4 @@ Instale pelo Nuget o framework **Caliburn.Micro**.
 
 ## Usar o Crystal Reports
 
-Instale o _Crystal Reports_ no computador.
+Instale o  [Crystal Reports](https://www.sap.com/brazil/products/crystal-visual-studio.html) no computador.
