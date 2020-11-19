@@ -43,7 +43,7 @@ namespace F1Data.DAL
             {
                 xmlDoc.Load(NomeArquivo);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 return false;
             }
