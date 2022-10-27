@@ -1,7 +1,7 @@
 # F1WPF-master
 > Aplicação em WPF utilizando Caliburn.Micro.  
 
-[![.NET Framework WPF](https://img.shields.io/badge/.NET%20Framework-WPF-orange)] [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Framework: WPF](https://img.shields.io/badge/.NET%20Framework-WPF-orange)] [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ***
 Assunto: dados dos campeonatos da Fórmula 1. 
