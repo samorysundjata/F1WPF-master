@@ -10,7 +10,7 @@ Base de dados: arquivos XML
 
 ## Usar o Caliburn.Micro
 
-Instale pelo Nuget o framework **Caliburn.Micro**.
+Instale pelo Nuget o framework MVVM **Caliburn.Micro**.
 
 ## Usar o Crystal Reports
 
