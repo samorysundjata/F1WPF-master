@@ -16,3 +16,5 @@ Instale pelo Nuget o framework MVVM **Caliburn.Micro**.
 
 Instale o  [Crystal Reports](https://www.sap.com/brazil/products/crystal-visual-studio.html) no computador.
 
+![Image Alt text](_0f50310a-db3e-4a46-aafa-c2002ac44df9.jpg "F1"))
+
